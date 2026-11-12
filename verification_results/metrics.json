@@ -1,0 +1,34 @@
+{
+  "checkpoint": "D:\\projects\\Lab1_ZN\\lightning_logs\\version_1\\checkpoints\\frcnn-epoch=01-val_map_50=0.7316.ckpt",
+  "device": "cuda",
+  "num_classes_including_background": 8,
+  "processed_images": 1537,
+  "processed_batches": 769,
+  "score_threshold_for_visualizations": 0.5,
+  "max_batches": 0,
+  "metrics": {
+    "map": 0.5064550638198853,
+    "map_50": 0.7281478643417358,
+    "map_75": 0.583924412727356,
+    "map_small": -1.0,
+    "map_medium": 0.003960396163165569,
+    "map_large": 0.511745274066925,
+    "mar_1": 0.5718056559562683,
+    "mar_10": 0.6382659673690796,
+    "mar_100": 0.6437416076660156,
+    "mar_small": -1.0,
+    "mar_medium": 0.011428571306169033,
+    "mar_large": 0.6511802673339844,
+    "map_per_class": -1.0,
+    "mar_100_per_class": -1.0,
+    "classes": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  }
+}
