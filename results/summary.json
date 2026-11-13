@@ -1,0 +1,86 @@
+{
+  "0.0": {
+    "clean (original test)": {
+      "acc_baseline": 0.9907,
+      "acc_reconstructed": 0.9854,
+      "mse_vs_clean": 0.0
+    },
+    "vae(clean)": {
+      "acc_baseline": 0.9707,
+      "acc_reconstructed": 0.9768,
+      "mse_vs_clean": 0.008281776681542397
+    },
+    "noisy s=0.1": {
+      "acc_baseline": 0.9901,
+      "acc_reconstructed": 0.9833,
+      "mse_vs_clean": 0.00543050654232502
+    },
+    "vae(noisy s=0.1)": {
+      "acc_baseline": 0.9103,
+      "acc_reconstructed": 0.8667,
+      "mse_vs_clean": 0.02131054550409317
+    },
+    "noisy s=0.2": {
+      "acc_baseline": 0.9876,
+      "acc_reconstructed": 0.9762,
+      "mse_vs_clean": 0.021217796951532364
+    },
+    "vae(noisy s=0.2)": {
+      "acc_baseline": 0.6159,
+      "acc_reconstructed": 0.4575,
+      "mse_vs_clean": 0.04310905188322067
+    },
+    "noisy s=0.3": {
+      "acc_baseline": 0.968,
+      "acc_reconstructed": 0.9554,
+      "mse_vs_clean": 0.04662986472249031
+    },
+    "vae(noisy s=0.3)": {
+      "acc_baseline": 0.4032,
+      "acc_reconstructed": 0.2909,
+      "mse_vs_clean": 0.05922846868634224
+    }
+  },
+  "0.3": {
+    "clean (original test)": {
+      "acc_baseline": 0.9907,
+      "acc_reconstructed": 0.9815,
+      "mse_vs_clean": 0.0
+    },
+    "vae(clean)": {
+      "acc_baseline": 0.9678,
+      "acc_reconstructed": 0.9746,
+      "mse_vs_clean": 0.008577696047723293
+    },
+    "noisy s=0.1": {
+      "acc_baseline": 0.9901,
+      "acc_reconstructed": 0.9793,
+      "mse_vs_clean": 0.00543050654232502
+    },
+    "vae(noisy s=0.1)": {
+      "acc_baseline": 0.9669,
+      "acc_reconstructed": 0.9738,
+      "mse_vs_clean": 0.008711010217666626
+    },
+    "noisy s=0.2": {
+      "acc_baseline": 0.9876,
+      "acc_reconstructed": 0.9687,
+      "mse_vs_clean": 0.021217796951532364
+    },
+    "vae(noisy s=0.2)": {
+      "acc_baseline": 0.9659,
+      "acc_reconstructed": 0.9736,
+      "mse_vs_clean": 0.009183332324028015
+    },
+    "noisy s=0.3": {
+      "acc_baseline": 0.968,
+      "acc_reconstructed": 0.9392,
+      "mse_vs_clean": 0.04662986472249031
+    },
+    "vae(noisy s=0.3)": {
+      "acc_baseline": 0.9615,
+      "acc_reconstructed": 0.9687,
+      "mse_vs_clean": 0.010370704345405102
+    }
+  }
+}

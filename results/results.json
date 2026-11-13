@@ -1,0 +1,42 @@
+{
+  "clean (original test)": {
+    "acc_baseline": 0.9913,
+    "acc_reconstructed": 0.9824,
+    "mse_vs_clean": 0.0
+  },
+  "vae(clean)": {
+    "acc_baseline": 0.9722,
+    "acc_reconstructed": 0.9774,
+    "mse_vs_clean": 0.00824696570634842
+  },
+  "noisy s=0.1": {
+    "acc_baseline": 0.9903,
+    "acc_reconstructed": 0.9824,
+    "mse_vs_clean": 0.00543050654232502
+  },
+  "vae(noisy s=0.1)": {
+    "acc_baseline": 0.9039,
+    "acc_reconstructed": 0.8915,
+    "mse_vs_clean": 0.02159990184009075
+  },
+  "noisy s=0.2": {
+    "acc_baseline": 0.985,
+    "acc_reconstructed": 0.9756,
+    "mse_vs_clean": 0.021217796951532364
+  },
+  "vae(noisy s=0.2)": {
+    "acc_baseline": 0.5895,
+    "acc_reconstructed": 0.4891,
+    "mse_vs_clean": 0.04178375378251076
+  },
+  "noisy s=0.3": {
+    "acc_baseline": 0.9637,
+    "acc_reconstructed": 0.9564,
+    "mse_vs_clean": 0.04662986472249031
+  },
+  "vae(noisy s=0.3)": {
+    "acc_baseline": 0.3825,
+    "acc_reconstructed": 0.3083,
+    "mse_vs_clean": 0.05700286105275154
+  }
+}
